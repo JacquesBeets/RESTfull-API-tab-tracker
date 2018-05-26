@@ -10,11 +10,12 @@ app.use(bodyParser.json());
 app.use(cors()); //Can be a security risk if this enabled. Allows any client around the world can hit the server.
 
 
-app.get('/status', (req, res) => {
+app.post('/register', (req, res) => {
   res.send({
-    message: 'Hello World!'
+    message: `${req.body.email} was registered succesfully!'`
   })
-})
+  console.log('Registration Received')
+});
 
 
 

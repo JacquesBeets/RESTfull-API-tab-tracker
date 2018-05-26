@@ -1,0 +1,14 @@
+Client Side Frameworks Used:
+
+Vue.js
+Vue-Router
+Vuex
+Axios
+Bootstrap 4
+
+Server Side Frameworks Used:
+
+Express.js
+Body-Parser
+Cors
+Morgan
