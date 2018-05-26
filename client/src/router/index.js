@@ -6,6 +6,7 @@ import Register from '@/components/auth/Register'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
